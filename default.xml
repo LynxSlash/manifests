@@ -1,0 +1,29 @@
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+   <!-- Remote -->
+   <remote name="lab" fetch="https://gitgud.io/"/>
+   <remote name="gh" fetch="https://github.com"/>
+   <remote name="bit" fetch="https://codeberg.org/"/>
+   
+   <!-- Addons -->
+   <project path="vendor/MiuiCameraLeica" name="heyradrepo/vendor_miuicameraleica" remote="bit" revision="udc" clone-depth="1"/>
+   
+   <!-- Trees -->
+   <project path="device/samsung/a70q" name="a70q-lineage/android_device_samsung_a70q" remote="gh" revision="lineage-21" clone-depth="1"/>
+   <project path="kernel/samsung/sm6150" name="a70q-lineage/android_kernel_samsung_sm6150" remote="gh" revision="lineage-21" clone-depth="1"/>
+   <project path="device/samsung/sm6150-common" name="a70q-lineage/android_device_samsung_sm6150-common" remote="gh" revision="lineage-21" clone-depth="1"/>
+   <project path="vendor/samsung/a70q" name="a70q-lineage/proprietary_vendor_samsung_a70q" remote="gh" revision="lineage-21" clone-depth="1"/>
+   <project path="vendor/samsung/sm6150-common" name="a70q-lineage/proprietary_vendor_samsung_sm6150-common" remote="gh" revision="lineage-21" clone-depth="1"/>
+   
+   #<!-- SePolicy -->
+   #<project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="gh" revision="lineage-21" clone-depth="1"/>
+   
+  # <!-- Hardware -->
+   #<project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="gh" revision="lineage-21" clone-depth="1"/>
+   #<project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="gh" revision="lineage-21" clone-depth="1"/>
+
+</manifest>
