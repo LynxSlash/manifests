@@ -12,5 +12,6 @@
    <project path="device/samsung/sm6150-common" name="a70q-lineage/android_device_samsung_sm6150-common" remote="gh" revision="lineage-21" clone-depth="1"/>
    <project path="vendor/samsung/a70q" name="TheMuppets/proprietary_vendor_samsung_a70q" remote="gh" revision="lineage-21" clone-depth="1"/>
    <project path="vendor/samsung/sm6150-common" name="TheMuppets/proprietary_vendor_samsung_sm6150-common" remote="gh" revision="lineage-21" clone-depth="1"/>
+   <project path="hardware/samsung" name="Linux4/android_hardware_samsung" remote="gh" revision="lineage-21.1" clone-depth="1"/>
    
 </manifest>
